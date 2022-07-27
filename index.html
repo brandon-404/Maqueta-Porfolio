@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Gride-Portfolio</title>
+  </head>
+  <body class="grid-portfolio">
+    <header class="header">
+      <div class="yoProgramo">
+        <div class="logo">>_</div>
+        <p class="curso">#YoProgramo</p>
+      </div>
+      <div class="iconos-container">
+        <a href="" class="icono"
+          ><img src="https://img.icons8.com/plasticine/100/000000/facebook.png"
+        /></a>
+        <a href="" class="icono"
+          ><img
+            src="https://img.icons8.com/plasticine/100/000000/instagram-new--v1.png"
+        /></a>
+        <a href="" class="icono"
+          ><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png"
+        /></a>
+        <a href="" class="icono"
+          ><img
+            src="https://img.icons8.com/plasticine/100/000000/github-squared.png"
+        /></a>
+        <div href="" class="menu-icono">
+          <img
+            src="https://img.icons8.com/material/50/000000/user-menu-female--v1.png"
+          />
+          <ul class="desplegables">
+            <li>Login</li>
+            <li>
+              <input type="text" name="usuario" placeholder="Usuario" />
+            </li>
+            <li>
+              <input type="password" name="password" placeholder="Contraseña" />
+            </li>
+            <li>
+              <button type="submit" class="btn">enviar</button>
+            </li>
+            <li>
+              <a href="">olvide mi contraseña</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <aside class="perfil">
+      <div class="grid-container">
+        <div class="imagen">
+          <img
+            src="https://placekitten.com/200/200"
+            class="avatar"
+            style="padding: 0px"
+          />
+        </div>
+        <div class="portada"></div>
+        <div class="perfil-content">
+          <h1 class="h">Pereyra Brandon</h1>
+          <h4 class="h">Full Stack Developer Jr</h4>
+        </div>
+      </div>
+    </aside>
+    <articles class="experiencia">
+      <h2>Experiencia</h2>
+      <ul class="lista">
+        <li>Olimpiadas de programacion en el lenguaje C++</li>
+        <li>Olimpiadas de Informatica con herramientas de Office</li>
+        <li>Docente tutor en “Club de Programación” en IPET 424</li>
+      </ul>
+    </articles>
+    <articles class="estudios">
+      <h2>Estudios</h2>
+      <ul class="lista">
+        <li>Cursando Licenciatura en ciencias de la computacionen FAMAF-UNC</li>
+        <li>Programacion WEB en la plataforma Argentina Programa</li>
+        <li>Tecnico en informatica profecional y personal en IPET 424</li>
+        <li>Bombero voluntario de primer nivel</li>
+      </ul>
+    </articles>
+    <articles class="skills">
+      <h2>Habilidades Informaticas</h2>
+      <div class="skills-container" id="skills">
+        <script>
+          crearElemento();
+          crearEstilo();
+        </script>
+      </div>
+    </articles>
+    <articles class="proyectos">
+      <h2>Proyectos Realizados</h2>
+      <div class="slick_proyectos" id="card_container">
+      </div>
+    </articles>
+    <script>
+      crearProyecto();
+    </script>
+    <footer class="footer">
+      <div class="contactos">
+        <h3>
+          Informacion de contacto:
+        </h3>
+        
+        <ul class="lista">
+          <li>
+            <a href="mailto:brandon.pereyra@mi.unc.edu.ar">brandon.pereyra@mi.unc.edu.ar</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="carrusel.js"></script>
+  </body>
+</html>
